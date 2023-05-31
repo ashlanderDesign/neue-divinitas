@@ -23,10 +23,20 @@ export default function Home() {
             </span>
           </div>
           <div className={styles.actions}>
-            <button className={styles.button}>Загрузить</button>
-            <button className={styles.buttonIcon}>
+            <a
+              href="https://storage.yandexcloud.net/ashlander-storage/Neue%20Divinitas%200.4.zip"
+              target="__blank"
+              className={styles.button}
+            >
+              Загрузить
+            </a>
+            <a
+              href="https://storage.yandexcloud.net/ashlander-storage/Neue%20Divinitas%200.4%20Server.zip"
+              target="__blank"
+              className={styles.buttonIcon}
+            >
               <img src="server.svg" />
-            </button>
+            </a>
           </div>
         </section>
         <img src="illager.svg" />
